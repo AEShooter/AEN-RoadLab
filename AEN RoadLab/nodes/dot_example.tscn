@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="SpatialMaterial" id=2]
+flags_unshaded = true
+
+[sub_resource type="SphereMesh" id=1]
+material = SubResource( 2 )
+radial_segments = 16
+rings = 8
+
+[node name="MeshInstance2D" type="MeshInstance2D"]
+scale = Vector2( 5, 5 )
+z_index = 1
+mesh = SubResource( 1 )

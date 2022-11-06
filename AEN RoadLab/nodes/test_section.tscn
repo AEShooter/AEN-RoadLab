@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/line-creator.gd" type="Script" id=2]
+
+[node name="test_section" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="lines" type="Node2D" parent="."]
+
+[node name="start_dots" type="Node2D" parent="."]
+
+[node name="end_dots" type="Node2D" parent="."]
+
+[node name="debug_text" type="Label" parent="."]
+margin_right = 365.0
+margin_bottom = 92.0
+text = "TEST"
+align = 1
+valign = 1
